@@ -12,12 +12,15 @@ void Queue_Print(Queue * Q)
 {
 	printf("{\n");
 
-	printf("size: %d,\n", Q->size);
-	printf("top: %d,\n", Q->top);
-	printf("{");
+	printf("\tsize: %d,\n", Q->size);
+	printf("\ttop: %d,\n", Q->top);
+	printf("\t{");
 	for(int i = 0; i < MAX_QUEUE; i++)
 	{
-		printf("%d: %d, ", i, Q->data[i]);
+		printf("%d: %d", i, Q->data[i]);
+		if (i < MAX_QUEUE - 1) {
+			printf(", ");
+		}
 	}
 	printf("}\n");
 
