@@ -1,4 +1,0 @@
-/home/adel/CLion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/adel/Projects/c-playground/simple_circular_queue
--- Configuring done
--- Generating done
--- Build files have been written to: /home/adel/Projects/c-playground/simple_circular_queue/cmake-build-debug

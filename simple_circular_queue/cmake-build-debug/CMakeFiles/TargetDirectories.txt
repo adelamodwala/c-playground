@@ -1,3 +1,0 @@
-/home/adel/Projects/c-playground/simple_circular_queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/adel/Projects/c-playground/simple_circular_queue/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/adel/Projects/c-playground/simple_circular_queue/cmake-build-debug/CMakeFiles/simple_circular_queue.dir
