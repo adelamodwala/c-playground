@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adel/Projects/c-playground/simple_circular_queue/main.c
+stdlib.h
+-
+stdio.h
+-
+queue.h
+/home/adel/Projects/c-playground/simple_circular_queue/queue.h
+
+/home/adel/Projects/c-playground/simple_circular_queue/queue.c
+stdio.h
+-
+queue.h
+/home/adel/Projects/c-playground/simple_circular_queue/queue.h
+
+/home/adel/Projects/c-playground/simple_circular_queue/queue.h
+
