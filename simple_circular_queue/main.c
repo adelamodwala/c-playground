@@ -17,9 +17,11 @@ int main() {
 
     //printf("Removing at index %d: %d\n", q->top, Queue_Remove(q));
     //Queue_Print(q);
+	Queue_Remove(q);
 
     //printf("Removing at index %d: %d\n", q->top, Queue_Remove(q));
     //Queue_Print(q);
+	Queue_Remove(q);
 
     Queue_Add(q, 99);
     //Queue_Print(q);
@@ -28,6 +30,7 @@ int main() {
 
     for (int i = 0; i < MAX_QUEUE - 2; i++) {
         //printf("Removing at index %d: %d\n", q->top, Queue_Remove(q));
+		Queue_Remove(q);
     }
     //Queue_Print(q);
 
@@ -36,6 +39,7 @@ int main() {
 
     //printf("Removing at index %d: %d\n", q->top, Queue_Remove(q));
     //Queue_Print(q);
+	Queue_Remove(q);
 
     for (int i = 45; i < 45 + MAX_QUEUE - 2; i++) {
         Queue_Add(q, i);
