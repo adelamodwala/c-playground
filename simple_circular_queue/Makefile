@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-Wall
-main: main.o queue.o
+main: src/main.o src/queue.o
 
 clean:
-	rm -f queue queue.o main.o main
+	rm -f src/queue src/queue.o src/main.o src/main
